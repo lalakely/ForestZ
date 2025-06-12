@@ -1,0 +1,22 @@
+2025-05-30 12:19:40 [ INFO] * Target path: /home/herilala/ogre/ForestZ/media/Gun
+2025-05-30 12:19:40 [ INFO] * Target file name: blender2ogre.scene
+2025-05-30 12:19:40 [ INFO] * Blender version: 4.4.3 (release; Linux)
+2025-05-30 12:19:40 [ INFO] * Processing Scene: blender2ogre, path: /home/herilala/ogre/ForestZ/media/Gun
+2025-05-30 12:19:40 [ INFO] * Processing Materials
+2025-05-30 12:19:40 [WARNING] Roughness input is not connected
+2025-05-30 12:19:40 [ INFO] * Exporting root node: Cylinder 
+2025-05-30 12:19:40 [WARNING] Object "Cylinder" has non uniform scale or rotation
+2025-05-30 12:19:40 [ INFO] * Generating: Cylinder.mesh.xml
+2025-05-30 12:19:40 [ INFO]   - Vertices: 958
+2025-05-30 12:19:40 [ INFO]   - Loop triangles: 1642
+2025-05-30 12:19:40 [ INFO] * Writing shared geometry
+2025-05-30 12:19:40 [ INFO] - Done at 0.36 seconds
+2025-05-30 12:19:40 [ INFO] * Writing submeshes
+2025-05-30 12:19:40 [ INFO] - Done at 0.37 seconds
+2025-05-30 12:19:40 [ INFO] - Created Cylinder.mesh.xml at 0.37 seconds
+2025-05-30 12:19:40 [ INFO] Removing generated xml file after conversion: /home/herilala/ogre/ForestZ/media/Gun/Cylinder.mesh.xml
+2025-05-30 12:19:40 [ INFO] - Created Cylinder.mesh in total time 0.41 seconds
+2025-05-30 12:19:40 [ INFO] * Generating Edge Lists for mesh: Cylinder.mesh
+2025-05-30 12:19:40 [ INFO] - Generated Edge Lists for mesh: Cylinder.mesh
+2025-05-30 12:19:40 [ INFO] - Exported Ogre Scene: /home/herilala/ogre/ForestZ/media/Gun/blender2ogre.scene 
+2025-05-30 12:19:40 [ INFO] - Done at 0.45 seconds

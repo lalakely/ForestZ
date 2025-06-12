@@ -1,0 +1,9 @@
+2025-05-15 02:55:45 [ INFO] * Target path: /home/herilala/ogre/ForestZ/media/soldier
+2025-05-15 02:55:45 [ INFO] * Target file name: soldier.skeleton
+2025-05-15 02:55:45 [ INFO] * Blender version: 4.4.3 (release; Linux)
+2025-05-15 02:55:45 [ INFO] * Processing Scene: soldier, path: /home/herilala/ogre/ForestZ/media/soldier
+2025-05-15 02:55:45 [ INFO] * Processing Materials
+2025-05-15 02:55:45 [WARNING] No materials, not writting .material script
+2025-05-15 02:55:45 [ INFO] * Exporting root node: Armature.002 
+2025-05-15 02:55:45 [ INFO] - Exported Ogre Scene: /home/herilala/ogre/ForestZ/media/soldier/soldier.scene 
+2025-05-15 02:55:45 [ INFO] - Done at 0.01 seconds

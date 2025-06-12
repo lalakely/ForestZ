@@ -1,0 +1,75 @@
+21:51:35: XMLSkeletonSerializer writing  skeleton data to Mesh.skeleton.xml...
+21:51:35: Populating DOM...
+21:51:35: Exporting bones..
+21:51:35: There are 65 bones.
+21:51:35:    Exporting Bone number 0
+21:51:35:    Exporting Bone number 1
+21:51:35:    Exporting Bone number 2
+21:51:35:    Exporting Bone number 3
+21:51:35:    Exporting Bone number 4
+21:51:35:    Exporting Bone number 5
+21:51:35:    Exporting Bone number 6
+21:51:35:    Exporting Bone number 7
+21:51:35:    Exporting Bone number 8
+21:51:35:    Exporting Bone number 9
+21:51:35:    Exporting Bone number 10
+21:51:35:    Exporting Bone number 11
+21:51:35:    Exporting Bone number 12
+21:51:35:    Exporting Bone number 13
+21:51:35:    Exporting Bone number 14
+21:51:35:    Exporting Bone number 15
+21:51:35:    Exporting Bone number 16
+21:51:35:    Exporting Bone number 17
+21:51:35:    Exporting Bone number 18
+21:51:35:    Exporting Bone number 19
+21:51:35:    Exporting Bone number 20
+21:51:35:    Exporting Bone number 21
+21:51:35:    Exporting Bone number 22
+21:51:35:    Exporting Bone number 23
+21:51:35:    Exporting Bone number 24
+21:51:35:    Exporting Bone number 25
+21:51:35:    Exporting Bone number 26
+21:51:35:    Exporting Bone number 27
+21:51:35:    Exporting Bone number 28
+21:51:35:    Exporting Bone number 29
+21:51:35:    Exporting Bone number 30
+21:51:35:    Exporting Bone number 31
+21:51:35:    Exporting Bone number 32
+21:51:35:    Exporting Bone number 33
+21:51:35:    Exporting Bone number 34
+21:51:35:    Exporting Bone number 35
+21:51:35:    Exporting Bone number 36
+21:51:35:    Exporting Bone number 37
+21:51:35:    Exporting Bone number 38
+21:51:35:    Exporting Bone number 39
+21:51:35:    Exporting Bone number 40
+21:51:35:    Exporting Bone number 41
+21:51:35:    Exporting Bone number 42
+21:51:35:    Exporting Bone number 43
+21:51:35:    Exporting Bone number 44
+21:51:35:    Exporting Bone number 45
+21:51:35:    Exporting Bone number 46
+21:51:35:    Exporting Bone number 47
+21:51:35:    Exporting Bone number 48
+21:51:35:    Exporting Bone number 49
+21:51:35:    Exporting Bone number 50
+21:51:35:    Exporting Bone number 51
+21:51:35:    Exporting Bone number 52
+21:51:35:    Exporting Bone number 53
+21:51:35:    Exporting Bone number 54
+21:51:35:    Exporting Bone number 55
+21:51:35:    Exporting Bone number 56
+21:51:35:    Exporting Bone number 57
+21:51:35:    Exporting Bone number 58
+21:51:35:    Exporting Bone number 59
+21:51:35:    Exporting Bone number 60
+21:51:35:    Exporting Bone number 61
+21:51:35:    Exporting Bone number 62
+21:51:35:    Exporting Bone number 63
+21:51:35:    Exporting Bone number 64
+21:51:35: Bones exported.
+21:51:35: Exporting animations, count=1
+21:51:35: Exporting animation: my_animation
+21:51:35: Animation exported.
+21:51:35: DOM populated, writing XML file..
+21:51:35: XMLSkeletonSerializer export successful.

@@ -1,0 +1,103 @@
+2025-05-28 21:49:37 [ INFO] * Target path: /home/herilala/ogre/ForestZ/media/animation
+2025-05-28 21:49:37 [ INFO] * Target file name: blender2ogre.scene
+2025-05-28 21:49:37 [ INFO] * Blender version: 4.4.3 (release; Linux)
+2025-05-28 21:49:37 [ INFO] * Processing Scene: blender2ogre, path: /home/herilala/ogre/ForestZ/media/animation
+2025-05-28 21:49:37 [ INFO] * Processing Materials
+2025-05-28 21:49:37 [WARNING] Connected node 'Image Texture.003' is not of type 'SEPARATE_COLOR'
+2025-05-28 21:49:40 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1001_Diffuse.png)
+2025-05-28 21:49:43 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1001_Normal.png)
+2025-05-28 21:49:44 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1001_Specular.png)
+2025-05-28 21:49:44 [WARNING] Connected node 'Image Texture.004' is not of type 'SEPARATE_COLOR'
+2025-05-28 21:49:47 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1002_Diffuse.png)
+2025-05-28 21:49:48 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1002_Specular.png)
+2025-05-28 21:49:51 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1002_Normal.png)
+2025-05-28 21:49:51 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/animation/Ch15_1002_Emissive.png)
+2025-05-28 21:49:51 [ INFO] * Exporting root node: Armature 
+2025-05-28 21:49:51 [ INFO] * Generating: Mesh.mesh.xml
+2025-05-28 21:49:51 [ INFO]   - Vertices: 24850
+2025-05-28 21:49:51 [ INFO]   - Loop triangles: 46301
+2025-05-28 21:49:51 [ INFO] * Writing shared geometry
+2025-05-28 21:49:53 [ INFO] - Done at 1.98 seconds
+2025-05-28 21:49:53 [ INFO] * Writing submeshes
+2025-05-28 21:49:54 [ INFO] - Done at 2.24 seconds
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9634 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9642 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9644 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9652 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9653 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9686 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9693 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9813 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9814 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9817 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9829 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9830 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9870 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9872 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9882 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9907 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9908 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9909 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9911 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9912 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9913 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9915 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9937 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9938 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9945 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9946 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9947 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9978 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9982 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9993 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 9995 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 10002 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 10007 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 10012 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11003 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11012 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11013 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11020 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11022 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11055 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11062 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11182 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11183 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11186 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11198 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11199 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11240 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11241 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11251 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11276 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11277 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11278 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11280 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11281 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11282 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11284 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11306 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11307 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11314 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11315 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11316 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11347 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11351 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11362 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11363 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11371 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11376 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 11382 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 30875 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [WARNING] <Mesh> vertex 30894 is in more than 4 vertex groups (bone weights). This maybe Ogre incompatible
+2025-05-28 21:49:54 [ INFO] - Created Mesh.mesh.xml at 2.71 seconds
+2025-05-28 21:49:54 [ INFO] Removing generated xml file after conversion: /home/herilala/ogre/ForestZ/media/animation/Mesh.mesh.xml
+2025-05-28 21:49:54 [ INFO] - Created Mesh.mesh in total time 3.04 seconds
+2025-05-28 21:49:54 [ INFO] * Generating Edge Lists for mesh: Mesh.mesh
+2025-05-28 21:49:54 [ INFO] - Generated Edge Lists for mesh: Mesh.mesh
+2025-05-28 21:49:54 [ INFO] * Generating: Mesh.skeleton.xml
+2025-05-28 21:49:54 [ INFO]  - Exporting action: my_animation
+2025-05-28 21:49:55 [ INFO] Removing generated xml file after conversion: /home/herilala/ogre/ForestZ/media/animation/Mesh.skeleton.xml
+2025-05-28 21:49:55 [ INFO] - Done at 0.30 seconds
+2025-05-28 21:49:55 [ INFO] - Exported Ogre Scene: /home/herilala/ogre/ForestZ/media/animation/blender2ogre.scene 
+2025-05-28 21:49:55 [ INFO] - Done at 17.35 seconds

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.9.0 -->
+<!-- export_time: Mon, 12 May 2025 23:20:46 +0000 -->
+<!-- blender_version: 4.4.3 (release; Linux) -->
+<!-- previous_export_time: Mon, 12 May 2025 22:59:03 +0000 -->
+<scene author="herilala" formatVersion="1.1" >
+  <nodes >
+    <node name="free grass" >
+      <position x="0.000000" y="0.000000" z="0.000000" />
+      <rotation qw="0.526129" qx="0.526129" qy="-0.472428" qz="-0.472428" />
+      <scale x="147.415848" y="147.415878" z="147.415848" />
+      <entity meshFile="free_grass.mesh" name="free grass" >
+        <userData />
+      </entity>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="free_grass.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.050876" g="0.050876" r="0.050876" />
+  </environment>
+</scene>

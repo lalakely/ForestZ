@@ -1,0 +1,27 @@
+21:53:32: XMLSkeletonSerializer: reading XML data from Mesh.skeleton.xml...
+21:53:32: XMLSkeletonSerializer: Reading Bones name...
+21:53:32: XMLSkeletonSerializer: Reading Hierarchy data...
+21:53:32: XMLSkeletonSerializer: Reading Bones data...
+21:53:32: XMLSkeletonSerializer: Reading Animations data...
+21:53:32: XMLSkeletonSerializer: Finished. Running SkeletonSerializer...
+21:53:32: Exporting bones..
+21:53:32: Bones exported.
+21:53:32: Exporting animations, count=9
+21:53:32: Exporting animation: Idle
+21:53:32: Animation exported.
+21:53:32: Exporting animation: runBackward
+21:53:32: Animation exported.
+21:53:32: Exporting animation: runForward
+21:53:32: Animation exported.
+21:53:32: Exporting animation: runLeft
+21:53:32: Animation exported.
+21:53:32: Exporting animation: runRight
+21:53:32: Animation exported.
+21:53:32: Exporting animation: walkBackward
+21:53:32: Animation exported.
+21:53:32: Exporting animation: walkForward
+21:53:32: Animation exported.
+21:53:32: Exporting animation: walkLeft
+21:53:32: Animation exported.
+21:53:32: Exporting animation: walkRight
+21:53:32: Animation exported.

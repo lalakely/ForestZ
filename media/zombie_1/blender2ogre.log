@@ -1,0 +1,38 @@
+2025-05-16 13:14:38 [ INFO] * Target path: /home/herilala/ogre/ForestZ/media/zombie_1
+2025-05-16 13:14:38 [ INFO] * Target file name: blender2ogre.scene
+2025-05-16 13:14:38 [ INFO] * Blender version: 4.4.3 (release; Linux)
+2025-05-16 13:14:38 [ INFO] * Processing Scene: blender2ogre, path: /home/herilala/ogre/ForestZ/media/zombie_1
+2025-05-16 13:14:38 [ INFO] * Processing Materials
+2025-05-16 13:14:38 [WARNING] Roughness input is not connected
+2025-05-16 13:14:39 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_body_diffuse.png)
+2025-05-16 13:14:39 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_normal.png)
+2025-05-16 13:14:39 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_specular.png)
+2025-05-16 13:14:39 [WARNING] Roughness input is not connected
+2025-05-16 13:14:40 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_diffuse.png)
+2025-05-16 13:14:40 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_diffuse.png)
+2025-05-16 13:14:40 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_normal.png)
+2025-05-16 13:14:40 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_specular.png)
+2025-05-16 13:14:40 [WARNING] Roughness input is not connected
+2025-05-16 13:14:41 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_diffuse.png)
+2025-05-16 13:14:41 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_normal.png)
+2025-05-16 13:14:41 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_specular.png)
+2025-05-16 13:14:42 [ INFO] Writing texture: (/home/herilala/ogre/ForestZ/media/zombie_1/zombie_diffuse.png)
+2025-05-16 13:14:42 [ INFO] * Exporting root node: Armature 
+2025-05-16 13:14:42 [ INFO] * Generating: ZombieGirl_Body.mesh.xml
+2025-05-16 13:14:42 [ INFO]   - Vertices: 3985
+2025-05-16 13:14:42 [ INFO]   - Loop triangles: 7448
+2025-05-16 13:14:42 [ INFO] * Writing shared geometry
+2025-05-16 13:14:42 [ INFO] - Done at 0.22 seconds
+2025-05-16 13:14:42 [ INFO] * Writing submeshes
+2025-05-16 13:14:42 [ INFO] - Done at 0.24 seconds
+2025-05-16 13:14:42 [ INFO] - Created ZombieGirl_Body.mesh.xml at 0.28 seconds
+2025-05-16 13:14:42 [ INFO] Removing generated xml file after conversion: /home/herilala/ogre/ForestZ/media/zombie_1/ZombieGirl_Body.mesh.xml
+2025-05-16 13:14:42 [ INFO] - Created ZombieGirl_Body.mesh in total time 0.31 seconds
+2025-05-16 13:14:42 [ INFO] * Generating Edge Lists for mesh: ZombieGirl_Body.mesh
+2025-05-16 13:14:42 [ INFO] - Generated Edge Lists for mesh: ZombieGirl_Body.mesh
+2025-05-16 13:14:42 [ INFO] * Generating: ZombieGirl_Body.skeleton.xml
+2025-05-16 13:14:42 [ INFO]  - Exporting action: my_animation
+2025-05-16 13:14:42 [ INFO] Removing generated xml file after conversion: /home/herilala/ogre/ForestZ/media/zombie_1/ZombieGirl_Body.skeleton.xml
+2025-05-16 13:14:42 [ INFO] - Done at 0.40 seconds
+2025-05-16 13:14:42 [ INFO] - Exported Ogre Scene: /home/herilala/ogre/ForestZ/media/zombie_1/blender2ogre.scene 
+2025-05-16 13:14:43 [ INFO] - Done at 4.01 seconds

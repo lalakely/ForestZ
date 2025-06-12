@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.9.0 -->
+<!-- export_time: Tue, 13 May 2025 00:00:21 +0000 -->
+<!-- blender_version: 4.4.3 (release; Linux) -->
+<scene author="herilala" formatVersion="1.1" >
+  <nodes >
+    <node name="c3" >
+      <position x="0.000000" y="0.000000" z="0.000000" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+      <scale x="0.010000" y="0.010000" z="0.010000" />
+      <entity meshFile="c3.mesh" name="c3" >
+        <userData />
+      </entity>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="Material__29.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.050876" g="0.050876" r="0.050876" />
+  </environment>
+</scene>

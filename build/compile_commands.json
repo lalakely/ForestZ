@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Minimap.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Minimap.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Minimap.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Gun.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Gun.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Gun.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Gun.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/HUD.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/HUD.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/HUD.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/HUD.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Object.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Object.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Object.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Object.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Plane.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Plane.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Plane.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Plane.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Player.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Player.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Player.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Player.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/Zombies.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Zombies.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/Zombies.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/Zombies.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/forest.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/forest.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/forest.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/forest.cpp.o"
+},
+{
+  "directory": "/home/herilala/ogre/ForestZ/build",
+  "command": "/usr/bin/g++  -I/home/herilala/ogre/ForestZ/src/include -I/home/herilala/ogre/ForestZ/src/dir -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE/Bullet -isystem /usr/local/include/bullet -isystem /usr/local/include/OGRE/MeshLodGenerator -isystem /usr/local/include/OGRE/Paging -isystem /usr/local/include/OGRE/Property -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Volume -g -std=gnu++14 -o CMakeFiles/forest.dir/src/dir/main.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/main.cpp",
+  "file": "/home/herilala/ogre/ForestZ/src/dir/main.cpp",
+  "output": "CMakeFiles/forest.dir/src/dir/main.cpp.o"
+}
+]

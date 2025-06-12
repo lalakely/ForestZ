@@ -1,0 +1,9 @@
+2025-05-15 17:18:14 [ INFO] * Target path: /home/herilala/ogre/ForestZ/media/test
+2025-05-15 17:18:14 [ INFO] * Target file name: blender2ogre.scene
+2025-05-15 17:18:14 [ INFO] * Blender version: 4.4.3 (release; Linux)
+2025-05-15 17:18:14 [ INFO] * Processing Scene: blender2ogre, path: /home/herilala/ogre/ForestZ/media/test
+2025-05-15 17:18:14 [ INFO] * Processing Materials
+2025-05-15 17:18:14 [WARNING] No materials, not writting .material script
+2025-05-15 17:18:14 [ INFO] * Exporting root node: Armature 
+2025-05-15 17:18:14 [ INFO] - Exported Ogre Scene: /home/herilala/ogre/ForestZ/media/test/blender2ogre.scene 
+2025-05-15 17:18:14 [ INFO] - Done at 0.01 seconds

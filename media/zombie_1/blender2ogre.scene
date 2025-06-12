@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.9.0 -->
+<!-- export_time: Fri, 16 May 2025 10:14:42 +0000 -->
+<!-- blender_version: 4.4.3 (release; Linux) -->
+<!-- previous_export_time: Fri, 16 May 2025 10:14:07 +0000 -->
+<scene author="herilala" formatVersion="1.1" >
+  <nodes >
+    <node name="Armature" >
+      <position x="0.000000" y="0.000000" z="0.000000" />
+      <rotation qw="0.707107" qx="0.707107" qy="0.000000" qz="0.000000" />
+      <scale x="0.010000" y="0.010000" z="0.010000" />
+      <node name="ZombieGirl_Body" >
+        <position x="-0.000000" y="0.000000" z="0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data="map1" name="currentUVSet" type="str" />
+        </userData>
+        <entity meshFile="ZombieGirl_Body.mesh" name="ZombieGirl_Body" >
+          <userData />
+        </entity>
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="ZombieGirl_body_Material.material" />
+    </item>
+    <item type="material" >
+      <file name="ZombieGirl_Material.material" />
+    </item>
+    <item type="material" >
+      <file name="ZombieGirl_Material.001.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.050876" g="0.050876" r="0.050876" />
+  </environment>
+</scene>
