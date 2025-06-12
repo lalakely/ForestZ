@@ -1,7 +1,7 @@
 CMakeFiles/forest.dir/src/dir/Minimap.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/Minimap.cpp \
+ /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp \
  /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Minimap.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Minimap.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \

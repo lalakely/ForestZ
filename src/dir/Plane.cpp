@@ -1,6 +1,4 @@
 #include "../include/Plane.hpp"
-#include <random>
-#include <chrono>
 
 PlaneZ::PlaneZ() {
     // Constructor implementation (if needed)
@@ -9,34 +7,18 @@ PlaneZ::~PlaneZ() {
     // Destructor implementation (if needed)
 }
 
-// Fonction pour générer un nom aléatoire unique
-std::string generateRandomGroundName() {
-    static std::random_device rd;
-    static std::mt19937 gen(rd());
-    static std::uniform_int_distribution<> dis(0, 999999);
-    
-    // Utiliser le timestamp actuel comme partie du nom pour garantir l'unicité
-    auto now = std::chrono::system_clock::now();
-    auto timestamp = std::chrono::duration_cast<std::chrono::milliseconds>(
-        now.time_since_epoch()
-    ).count();
-    
-    return "ground_" + std::to_string(timestamp) + "_" + std::to_string(dis(gen));
-}
-
 void PlaneZ::createPlane(SceneManager* scnMgr, btDiscreteDynamicsWorld* dynamicsWorld) {
-    planeCountX = PLANE_X; // Number of planes along the X-axis
-    planeCountZ = PLANE_Z; // Number of planes along the Z-axis
-    planeSize = PLANE_SIZE; // Size of each plane
-
-    for (int x = 0; x < planeCountX; ++x) {
+  planeCountX = PLANE_X; // Number of planes along the X-axis
+  planeCountZ = PLANE_Z; // Number of planes along the Z-axis
+  planeSize = PLANE_SIZE; // Size of each plane
+   for (int x = 0; x < planeCountX; ++x) {
         for (int z = 0; z < planeCountZ; ++z) {
-            // Générer un nom unique pour chaque segment
-            std::string planeName = generateRandomGroundName();
-
             // Calculate the position of the current plane
             float posX = (x - planeCountX / 2) * planeSize;
             float posZ = (z - planeCountZ / 2) * planeSize;
+
+            // Create a unique name for the plane
+            std::string planeName = "ground_" + std::to_string(x) + "_" + std::to_string(z);
 
             // Create the plane mesh
             Plane plane(Vector3::UNIT_Y, 0);
@@ -75,6 +57,7 @@ void PlaneZ::createPlane(SceneManager* scnMgr, btDiscreteDynamicsWorld* dynamics
 
             // Add the rigid body to the physics world
             dynamicsWorld->addRigidBody(planeBody);
+
         }
     }
 }

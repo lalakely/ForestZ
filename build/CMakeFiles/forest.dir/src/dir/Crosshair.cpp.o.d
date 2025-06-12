@@ -1,7 +1,7 @@
 CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/Crosshair.cpp \
+ /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp \
  /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/include/Crosshair.hpp \
+ /home/herilala/ogre/ForestZ/src/include/Crosshair.hpp \
  /usr/local/include/OGRE/Overlay/OgreOverlay.h \
  /usr/local/include/OGRE/Overlay/OgreOverlayPrerequisites.h \
  /usr/local/include/OGRE/OgreMatrix4.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/herilala/ogre/tests/ForestZ
+CMAKE_SOURCE_DIR = /home/herilala/ogre/ForestZ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/herilala/ogre/tests/ForestZ/build
+CMAKE_BINARY_DIR = /home/herilala/ogre/ForestZ/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/forest.dir/depend.make
@@ -70,274 +70,169 @@ include CMakeFiles/forest.dir/progress.make
 include CMakeFiles/forest.dir/flags.make
 
 CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/BulletDebugDrawer.cpp
+CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o: /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp
 CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o -MF CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o.d -o CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/BulletDebugDrawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o -MF CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o.d -o CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp
 
 CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/BulletDebugDrawer.cpp > CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp > CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.i
 
 CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/BulletDebugDrawer.cpp -o CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp -o CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Minimap.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Minimap.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Minimap.cpp
+CMakeFiles/forest.dir/src/dir/Minimap.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp
 CMakeFiles/forest.dir/src/dir/Minimap.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forest.dir/src/dir/Minimap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Minimap.cpp.o -MF CMakeFiles/forest.dir/src/dir/Minimap.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Minimap.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Minimap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/forest.dir/src/dir/Minimap.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Minimap.cpp.o -MF CMakeFiles/forest.dir/src/dir/Minimap.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Minimap.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp
 
 CMakeFiles/forest.dir/src/dir/Minimap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Minimap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Minimap.cpp > CMakeFiles/forest.dir/src/dir/Minimap.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp > CMakeFiles/forest.dir/src/dir/Minimap.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Minimap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Minimap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Minimap.cpp -o CMakeFiles/forest.dir/src/dir/Minimap.cpp.s
-
-CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/CameraManager.cpp
-CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o -MF CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o.d -o CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/CameraManager.cpp
-
-CMakeFiles/forest.dir/src/dir/CameraManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/CameraManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/CameraManager.cpp > CMakeFiles/forest.dir/src/dir/CameraManager.cpp.i
-
-CMakeFiles/forest.dir/src/dir/CameraManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/CameraManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/CameraManager.cpp -o CMakeFiles/forest.dir/src/dir/CameraManager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Minimap.cpp -o CMakeFiles/forest.dir/src/dir/Minimap.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Crosshair.cpp
+CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp
 CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o -MF CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Crosshair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o -MF CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp
 
 CMakeFiles/forest.dir/src/dir/Crosshair.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Crosshair.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Crosshair.cpp > CMakeFiles/forest.dir/src/dir/Crosshair.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp > CMakeFiles/forest.dir/src/dir/Crosshair.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Crosshair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Crosshair.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Crosshair.cpp -o CMakeFiles/forest.dir/src/dir/Crosshair.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Crosshair.cpp -o CMakeFiles/forest.dir/src/dir/Crosshair.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Gun.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Gun.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Gun.cpp
+CMakeFiles/forest.dir/src/dir/Gun.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Gun.cpp
 CMakeFiles/forest.dir/src/dir/Gun.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/forest.dir/src/dir/Gun.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Gun.cpp.o -MF CMakeFiles/forest.dir/src/dir/Gun.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Gun.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Gun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/forest.dir/src/dir/Gun.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Gun.cpp.o -MF CMakeFiles/forest.dir/src/dir/Gun.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Gun.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Gun.cpp
 
 CMakeFiles/forest.dir/src/dir/Gun.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Gun.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Gun.cpp > CMakeFiles/forest.dir/src/dir/Gun.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Gun.cpp > CMakeFiles/forest.dir/src/dir/Gun.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Gun.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Gun.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Gun.cpp -o CMakeFiles/forest.dir/src/dir/Gun.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Gun.cpp -o CMakeFiles/forest.dir/src/dir/Gun.cpp.s
 
 CMakeFiles/forest.dir/src/dir/HUD.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/HUD.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/HUD.cpp
+CMakeFiles/forest.dir/src/dir/HUD.cpp.o: /home/herilala/ogre/ForestZ/src/dir/HUD.cpp
 CMakeFiles/forest.dir/src/dir/HUD.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/forest.dir/src/dir/HUD.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/HUD.cpp.o -MF CMakeFiles/forest.dir/src/dir/HUD.cpp.o.d -o CMakeFiles/forest.dir/src/dir/HUD.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/HUD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/forest.dir/src/dir/HUD.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/HUD.cpp.o -MF CMakeFiles/forest.dir/src/dir/HUD.cpp.o.d -o CMakeFiles/forest.dir/src/dir/HUD.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/HUD.cpp
 
 CMakeFiles/forest.dir/src/dir/HUD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/HUD.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/HUD.cpp > CMakeFiles/forest.dir/src/dir/HUD.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/HUD.cpp > CMakeFiles/forest.dir/src/dir/HUD.cpp.i
 
 CMakeFiles/forest.dir/src/dir/HUD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/HUD.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/HUD.cpp -o CMakeFiles/forest.dir/src/dir/HUD.cpp.s
-
-CMakeFiles/forest.dir/src/dir/InputManager.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/InputManager.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/InputManager.cpp
-CMakeFiles/forest.dir/src/dir/InputManager.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/forest.dir/src/dir/InputManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/InputManager.cpp.o -MF CMakeFiles/forest.dir/src/dir/InputManager.cpp.o.d -o CMakeFiles/forest.dir/src/dir/InputManager.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/InputManager.cpp
-
-CMakeFiles/forest.dir/src/dir/InputManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/InputManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/InputManager.cpp > CMakeFiles/forest.dir/src/dir/InputManager.cpp.i
-
-CMakeFiles/forest.dir/src/dir/InputManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/InputManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/InputManager.cpp -o CMakeFiles/forest.dir/src/dir/InputManager.cpp.s
-
-CMakeFiles/forest.dir/src/dir/Level.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Level.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Level.cpp
-CMakeFiles/forest.dir/src/dir/Level.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/forest.dir/src/dir/Level.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Level.cpp.o -MF CMakeFiles/forest.dir/src/dir/Level.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Level.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Level.cpp
-
-CMakeFiles/forest.dir/src/dir/Level.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Level.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Level.cpp > CMakeFiles/forest.dir/src/dir/Level.cpp.i
-
-CMakeFiles/forest.dir/src/dir/Level.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Level.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Level.cpp -o CMakeFiles/forest.dir/src/dir/Level.cpp.s
-
-CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/LevelManager.cpp
-CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o -MF CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o.d -o CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/LevelManager.cpp
-
-CMakeFiles/forest.dir/src/dir/LevelManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/LevelManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/LevelManager.cpp > CMakeFiles/forest.dir/src/dir/LevelManager.cpp.i
-
-CMakeFiles/forest.dir/src/dir/LevelManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/LevelManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/LevelManager.cpp -o CMakeFiles/forest.dir/src/dir/LevelManager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/HUD.cpp -o CMakeFiles/forest.dir/src/dir/HUD.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Object.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Object.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Object.cpp
+CMakeFiles/forest.dir/src/dir/Object.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Object.cpp
 CMakeFiles/forest.dir/src/dir/Object.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/forest.dir/src/dir/Object.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Object.cpp.o -MF CMakeFiles/forest.dir/src/dir/Object.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Object.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/forest.dir/src/dir/Object.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Object.cpp.o -MF CMakeFiles/forest.dir/src/dir/Object.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Object.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Object.cpp
 
 CMakeFiles/forest.dir/src/dir/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Object.cpp > CMakeFiles/forest.dir/src/dir/Object.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Object.cpp > CMakeFiles/forest.dir/src/dir/Object.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Object.cpp -o CMakeFiles/forest.dir/src/dir/Object.cpp.s
-
-CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/PhysicsManager.cpp
-CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o -MF CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o.d -o CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/PhysicsManager.cpp
-
-CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/PhysicsManager.cpp > CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.i
-
-CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/PhysicsManager.cpp -o CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Object.cpp -o CMakeFiles/forest.dir/src/dir/Object.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Plane.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Plane.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Plane.cpp
+CMakeFiles/forest.dir/src/dir/Plane.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Plane.cpp
 CMakeFiles/forest.dir/src/dir/Plane.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/forest.dir/src/dir/Plane.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Plane.cpp.o -MF CMakeFiles/forest.dir/src/dir/Plane.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Plane.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Plane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/forest.dir/src/dir/Plane.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Plane.cpp.o -MF CMakeFiles/forest.dir/src/dir/Plane.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Plane.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Plane.cpp
 
 CMakeFiles/forest.dir/src/dir/Plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Plane.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Plane.cpp > CMakeFiles/forest.dir/src/dir/Plane.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Plane.cpp > CMakeFiles/forest.dir/src/dir/Plane.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Plane.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Plane.cpp -o CMakeFiles/forest.dir/src/dir/Plane.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Plane.cpp -o CMakeFiles/forest.dir/src/dir/Plane.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Player.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Player.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Player.cpp
+CMakeFiles/forest.dir/src/dir/Player.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Player.cpp
 CMakeFiles/forest.dir/src/dir/Player.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/forest.dir/src/dir/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Player.cpp.o -MF CMakeFiles/forest.dir/src/dir/Player.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Player.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/forest.dir/src/dir/Player.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Player.cpp.o -MF CMakeFiles/forest.dir/src/dir/Player.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Player.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Player.cpp
 
 CMakeFiles/forest.dir/src/dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Player.cpp > CMakeFiles/forest.dir/src/dir/Player.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Player.cpp > CMakeFiles/forest.dir/src/dir/Player.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Player.cpp -o CMakeFiles/forest.dir/src/dir/Player.cpp.s
-
-CMakeFiles/forest.dir/src/dir/UIManager.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/UIManager.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/UIManager.cpp
-CMakeFiles/forest.dir/src/dir/UIManager.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/forest.dir/src/dir/UIManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/UIManager.cpp.o -MF CMakeFiles/forest.dir/src/dir/UIManager.cpp.o.d -o CMakeFiles/forest.dir/src/dir/UIManager.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/UIManager.cpp
-
-CMakeFiles/forest.dir/src/dir/UIManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/UIManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/UIManager.cpp > CMakeFiles/forest.dir/src/dir/UIManager.cpp.i
-
-CMakeFiles/forest.dir/src/dir/UIManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/UIManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/UIManager.cpp -o CMakeFiles/forest.dir/src/dir/UIManager.cpp.s
-
-CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/WelcomePage.cpp
-CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o -MF CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o.d -o CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/WelcomePage.cpp
-
-CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/WelcomePage.cpp > CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.i
-
-CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/WelcomePage.cpp -o CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Player.cpp -o CMakeFiles/forest.dir/src/dir/Player.cpp.s
 
 CMakeFiles/forest.dir/src/dir/Zombies.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/Zombies.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/Zombies.cpp
+CMakeFiles/forest.dir/src/dir/Zombies.cpp.o: /home/herilala/ogre/ForestZ/src/dir/Zombies.cpp
 CMakeFiles/forest.dir/src/dir/Zombies.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/forest.dir/src/dir/Zombies.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Zombies.cpp.o -MF CMakeFiles/forest.dir/src/dir/Zombies.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Zombies.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/Zombies.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/forest.dir/src/dir/Zombies.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/Zombies.cpp.o -MF CMakeFiles/forest.dir/src/dir/Zombies.cpp.o.d -o CMakeFiles/forest.dir/src/dir/Zombies.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/Zombies.cpp
 
 CMakeFiles/forest.dir/src/dir/Zombies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/Zombies.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/Zombies.cpp > CMakeFiles/forest.dir/src/dir/Zombies.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/Zombies.cpp > CMakeFiles/forest.dir/src/dir/Zombies.cpp.i
 
 CMakeFiles/forest.dir/src/dir/Zombies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/Zombies.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/Zombies.cpp -o CMakeFiles/forest.dir/src/dir/Zombies.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/Zombies.cpp -o CMakeFiles/forest.dir/src/dir/Zombies.cpp.s
 
 CMakeFiles/forest.dir/src/dir/forest.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/forest.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/forest.cpp
+CMakeFiles/forest.dir/src/dir/forest.cpp.o: /home/herilala/ogre/ForestZ/src/dir/forest.cpp
 CMakeFiles/forest.dir/src/dir/forest.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/forest.dir/src/dir/forest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/forest.cpp.o -MF CMakeFiles/forest.dir/src/dir/forest.cpp.o.d -o CMakeFiles/forest.dir/src/dir/forest.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/forest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/forest.dir/src/dir/forest.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/forest.cpp.o -MF CMakeFiles/forest.dir/src/dir/forest.cpp.o.d -o CMakeFiles/forest.dir/src/dir/forest.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/forest.cpp
 
 CMakeFiles/forest.dir/src/dir/forest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/forest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/forest.cpp > CMakeFiles/forest.dir/src/dir/forest.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/forest.cpp > CMakeFiles/forest.dir/src/dir/forest.cpp.i
 
 CMakeFiles/forest.dir/src/dir/forest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/forest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/forest.cpp -o CMakeFiles/forest.dir/src/dir/forest.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/forest.cpp -o CMakeFiles/forest.dir/src/dir/forest.cpp.s
 
 CMakeFiles/forest.dir/src/dir/main.cpp.o: CMakeFiles/forest.dir/flags.make
-CMakeFiles/forest.dir/src/dir/main.cpp.o: /home/herilala/ogre/tests/ForestZ/src/dir/main.cpp
+CMakeFiles/forest.dir/src/dir/main.cpp.o: /home/herilala/ogre/ForestZ/src/dir/main.cpp
 CMakeFiles/forest.dir/src/dir/main.cpp.o: CMakeFiles/forest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/forest.dir/src/dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/main.cpp.o -MF CMakeFiles/forest.dir/src/dir/main.cpp.o.d -o CMakeFiles/forest.dir/src/dir/main.cpp.o -c /home/herilala/ogre/tests/ForestZ/src/dir/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/forest.dir/src/dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/forest.dir/src/dir/main.cpp.o -MF CMakeFiles/forest.dir/src/dir/main.cpp.o.d -o CMakeFiles/forest.dir/src/dir/main.cpp.o -c /home/herilala/ogre/ForestZ/src/dir/main.cpp
 
 CMakeFiles/forest.dir/src/dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/forest.dir/src/dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/tests/ForestZ/src/dir/main.cpp > CMakeFiles/forest.dir/src/dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/herilala/ogre/ForestZ/src/dir/main.cpp > CMakeFiles/forest.dir/src/dir/main.cpp.i
 
 CMakeFiles/forest.dir/src/dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/forest.dir/src/dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/tests/ForestZ/src/dir/main.cpp -o CMakeFiles/forest.dir/src/dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/herilala/ogre/ForestZ/src/dir/main.cpp -o CMakeFiles/forest.dir/src/dir/main.cpp.s
 
 # Object files for target forest
 forest_OBJECTS = \
 "CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Minimap.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Gun.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/HUD.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/InputManager.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/Level.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Object.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Plane.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Player.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/UIManager.cpp.o" \
-"CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/Zombies.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/forest.cpp.o" \
 "CMakeFiles/forest.dir/src/dir/main.cpp.o"
@@ -347,19 +242,12 @@ forest_EXTERNAL_OBJECTS =
 
 forest: CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Minimap.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Crosshair.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Gun.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/HUD.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/InputManager.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/Level.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Object.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Plane.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Player.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/UIManager.cpp.o
-forest: CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/Zombies.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/forest.cpp.o
 forest: CMakeFiles/forest.dir/src/dir/main.cpp.o
@@ -375,7 +263,7 @@ forest: /usr/local/lib/libOgrePaging.so.14.3
 forest: /usr/local/lib/libOgreRTShaderSystem.so.14.3
 forest: /usr/local/lib/libOgreMain.so.14.3
 forest: CMakeFiles/forest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/herilala/ogre/tests/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable forest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/herilala/ogre/ForestZ/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable forest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/forest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -387,6 +275,6 @@ CMakeFiles/forest.dir/clean:
 .PHONY : CMakeFiles/forest.dir/clean
 
 CMakeFiles/forest.dir/depend:
-	cd /home/herilala/ogre/tests/ForestZ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/herilala/ogre/tests/ForestZ /home/herilala/ogre/tests/ForestZ /home/herilala/ogre/tests/ForestZ/build /home/herilala/ogre/tests/ForestZ/build /home/herilala/ogre/tests/ForestZ/build/CMakeFiles/forest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/herilala/ogre/ForestZ/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/herilala/ogre/ForestZ /home/herilala/ogre/ForestZ /home/herilala/ogre/ForestZ/build /home/herilala/ogre/ForestZ/build /home/herilala/ogre/ForestZ/build/CMakeFiles/forest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/forest.dir/depend
 

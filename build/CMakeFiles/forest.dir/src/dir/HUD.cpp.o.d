@@ -1,7 +1,6 @@
 CMakeFiles/forest.dir/src/dir/HUD.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/HUD.cpp \
- /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/HUD.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/HUD.cpp /usr/include/stdc-predef.h \
+ /home/herilala/ogre/ForestZ/src/dir/../include/HUD.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \

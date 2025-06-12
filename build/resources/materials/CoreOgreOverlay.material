@@ -1,0 +1,151 @@
+material Core/StatsBlockCenter
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 0.2 0.2 0.2
+                alpha_op_ex source1 src_manual src_current 0.8
+            }
+        }
+    }
+}
+
+material Core/PlayerIcon
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 1.0 1.0 1.0
+                alpha_op_ex source1 src_manual src_current 1.0
+            }
+        }
+    }
+}
+
+material Core/ZombieIcon
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 1.0 0.0 0.0
+                alpha_op_ex source1 src_manual src_current 1.0
+            }
+        }
+    }
+}
+
+material Core/StatsBlockBorder
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 0.0 0.0 0.0
+                alpha_op_ex source1 src_manual src_current 0.8
+            }
+        }
+    }
+}
+
+material Core/TextAreaBackground
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+
+            texture_unit
+            {
+                colour_op_ex source1 src_manual src_current 0.0 0.0 0.0
+                alpha_op_ex source1 src_manual src_current 0.7
+            }
+        }
+    }
+}
+
+material Core/HealthBar
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 1.0 0.0 0.0
+                alpha_op_ex source1 src_manual src_current 0.7
+            }
+        }
+    }
+}
+
+material Core/EnergyBar
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            depth_write off
+            transparent_sorting on
+
+            texture_unit
+            {
+                filtering none
+                colour_op_ex source1 src_manual src_current 1.0 1.0 1.0
+                alpha_op_ex source1 src_manual src_current 0.7
+            }
+        }
+    }
+} 

@@ -1,7 +1,6 @@
 CMakeFiles/forest.dir/src/dir/main.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/main.cpp \
- /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/forest.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/main.cpp /usr/include/stdc-predef.h \
+ /home/herilala/ogre/ForestZ/src/dir/../include/forest.hpp \
  /usr/include/c++/13/exception \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -168,7 +167,7 @@ CMakeFiles/forest.dir/src/dir/main.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/lib.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/lib.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \
@@ -419,7 +418,7 @@ CMakeFiles/forest.dir/src/dir/main.cpp.o: \
  /usr/local/include/OGRE/Bites/OgreCameraMan.h \
  /usr/local/include/OGRE/OgreCamera.h \
  /usr/local/include/OGRE/OgreSceneNode.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
  /usr/local/include/bullet/btBulletDynamicsCommon.h \
  /usr/local/include/bullet/btBulletCollisionCommon.h \
  /usr/local/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -552,11 +551,11 @@ CMakeFiles/forest.dir/src/dir/main.cpp.o: \
  /usr/local/include/bullet/BulletDynamics/Vehicle/btWheelInfo.h \
  /usr/local/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/local/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Plane.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Object.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Player.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Plane.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Object.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Player.hpp \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Zombies.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Zombies.hpp \
  /usr/local/include/OGRE/Overlay/OgreOverlay.h \
  /usr/local/include/OGRE/Overlay/OgreOverlayPrerequisites.h \
  /usr/local/include/OGRE/OgreViewport.h \
@@ -578,32 +577,8 @@ CMakeFiles/forest.dir/src/dir/main.cpp.o: \
  /usr/local/include/OGRE/OgreResource.h \
  /usr/local/include/OGRE/OgreSharedPtr.h \
  /usr/local/include/OGRE/OgreException.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/CameraManager.hpp \
- /usr/local/include/OGRE/OgreRenderWindow.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/LevelManager.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/Zombies.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/Player.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/InputManager.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/PhysicsManager.hpp \
- /usr/local/include/bullet/btBulletCollisionCommon.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/UIManager.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/WelcomePage.hpp \
- /usr/local/include/OGRE/Bites/OgreBitesPrerequisites.h \
- /usr/local/include/OGRE/Bites/OgreTrays.h \
- /usr/local/include/OGRE/Overlay/OgreBorderPanelOverlayElement.h \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Minimap.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/HUD.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Crosshair.hpp \
  /usr/local/include/OGRE/Overlay/OgrePanelOverlayElement.h \
- /usr/local/include/OGRE/Overlay/OgreOverlayContainer.h \
- /usr/local/include/OGRE/Overlay/OgreFontManager.h \
- /usr/local/include/OGRE/OgreResourceManager.h \
- /usr/local/include/OGRE/OgreTimer.h /usr/local/include/OGRE/OgreRoot.h \
- /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
- /usr/include/c++/13/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13/bits/locale_conv.h \
- /usr/include/c++/13/bits/quoted_string.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/HUD.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/Minimap.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/../include/Crosshair.hpp \
- /usr/local/include/OGRE/Overlay/OgrePanelOverlayElement.h
+ /usr/local/include/OGRE/Overlay/OgreOverlayContainer.h

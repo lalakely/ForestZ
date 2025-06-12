@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/herilala/ogre/tests/ForestZ
+CMAKE_SOURCE_DIR = /home/herilala/ogre/ForestZ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/herilala/ogre/tests/ForestZ/build
+CMAKE_BINARY_DIR = /home/herilala/ogre/ForestZ/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/herilala/ogre/tests/ForestZ/build/CMakeFiles /home/herilala/ogre/tests/ForestZ/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/herilala/ogre/ForestZ/build/CMakeFiles /home/herilala/ogre/ForestZ/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/herilala/ogre/tests/ForestZ/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/herilala/ogre/ForestZ/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,30 +152,6 @@ src/dir/BulletDebugDrawer.s: src/dir/BulletDebugDrawer.cpp.s
 src/dir/BulletDebugDrawer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.s
 .PHONY : src/dir/BulletDebugDrawer.cpp.s
-
-src/dir/CameraManager.o: src/dir/CameraManager.cpp.o
-.PHONY : src/dir/CameraManager.o
-
-# target to build an object file
-src/dir/CameraManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/CameraManager.cpp.o
-.PHONY : src/dir/CameraManager.cpp.o
-
-src/dir/CameraManager.i: src/dir/CameraManager.cpp.i
-.PHONY : src/dir/CameraManager.i
-
-# target to preprocess a source file
-src/dir/CameraManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/CameraManager.cpp.i
-.PHONY : src/dir/CameraManager.cpp.i
-
-src/dir/CameraManager.s: src/dir/CameraManager.cpp.s
-.PHONY : src/dir/CameraManager.s
-
-# target to generate assembly for a file
-src/dir/CameraManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/CameraManager.cpp.s
-.PHONY : src/dir/CameraManager.cpp.s
 
 src/dir/Crosshair.o: src/dir/Crosshair.cpp.o
 .PHONY : src/dir/Crosshair.o
@@ -249,78 +225,6 @@ src/dir/HUD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/HUD.cpp.s
 .PHONY : src/dir/HUD.cpp.s
 
-src/dir/InputManager.o: src/dir/InputManager.cpp.o
-.PHONY : src/dir/InputManager.o
-
-# target to build an object file
-src/dir/InputManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/InputManager.cpp.o
-.PHONY : src/dir/InputManager.cpp.o
-
-src/dir/InputManager.i: src/dir/InputManager.cpp.i
-.PHONY : src/dir/InputManager.i
-
-# target to preprocess a source file
-src/dir/InputManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/InputManager.cpp.i
-.PHONY : src/dir/InputManager.cpp.i
-
-src/dir/InputManager.s: src/dir/InputManager.cpp.s
-.PHONY : src/dir/InputManager.s
-
-# target to generate assembly for a file
-src/dir/InputManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/InputManager.cpp.s
-.PHONY : src/dir/InputManager.cpp.s
-
-src/dir/Level.o: src/dir/Level.cpp.o
-.PHONY : src/dir/Level.o
-
-# target to build an object file
-src/dir/Level.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/Level.cpp.o
-.PHONY : src/dir/Level.cpp.o
-
-src/dir/Level.i: src/dir/Level.cpp.i
-.PHONY : src/dir/Level.i
-
-# target to preprocess a source file
-src/dir/Level.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/Level.cpp.i
-.PHONY : src/dir/Level.cpp.i
-
-src/dir/Level.s: src/dir/Level.cpp.s
-.PHONY : src/dir/Level.s
-
-# target to generate assembly for a file
-src/dir/Level.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/Level.cpp.s
-.PHONY : src/dir/Level.cpp.s
-
-src/dir/LevelManager.o: src/dir/LevelManager.cpp.o
-.PHONY : src/dir/LevelManager.o
-
-# target to build an object file
-src/dir/LevelManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/LevelManager.cpp.o
-.PHONY : src/dir/LevelManager.cpp.o
-
-src/dir/LevelManager.i: src/dir/LevelManager.cpp.i
-.PHONY : src/dir/LevelManager.i
-
-# target to preprocess a source file
-src/dir/LevelManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/LevelManager.cpp.i
-.PHONY : src/dir/LevelManager.cpp.i
-
-src/dir/LevelManager.s: src/dir/LevelManager.cpp.s
-.PHONY : src/dir/LevelManager.s
-
-# target to generate assembly for a file
-src/dir/LevelManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/LevelManager.cpp.s
-.PHONY : src/dir/LevelManager.cpp.s
-
 src/dir/Minimap.o: src/dir/Minimap.cpp.o
 .PHONY : src/dir/Minimap.o
 
@@ -369,30 +273,6 @@ src/dir/Object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/Object.cpp.s
 .PHONY : src/dir/Object.cpp.s
 
-src/dir/PhysicsManager.o: src/dir/PhysicsManager.cpp.o
-.PHONY : src/dir/PhysicsManager.o
-
-# target to build an object file
-src/dir/PhysicsManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.o
-.PHONY : src/dir/PhysicsManager.cpp.o
-
-src/dir/PhysicsManager.i: src/dir/PhysicsManager.cpp.i
-.PHONY : src/dir/PhysicsManager.i
-
-# target to preprocess a source file
-src/dir/PhysicsManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.i
-.PHONY : src/dir/PhysicsManager.cpp.i
-
-src/dir/PhysicsManager.s: src/dir/PhysicsManager.cpp.s
-.PHONY : src/dir/PhysicsManager.s
-
-# target to generate assembly for a file
-src/dir/PhysicsManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/PhysicsManager.cpp.s
-.PHONY : src/dir/PhysicsManager.cpp.s
-
 src/dir/Plane.o: src/dir/Plane.cpp.o
 .PHONY : src/dir/Plane.o
 
@@ -440,54 +320,6 @@ src/dir/Player.s: src/dir/Player.cpp.s
 src/dir/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/Player.cpp.s
 .PHONY : src/dir/Player.cpp.s
-
-src/dir/UIManager.o: src/dir/UIManager.cpp.o
-.PHONY : src/dir/UIManager.o
-
-# target to build an object file
-src/dir/UIManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/UIManager.cpp.o
-.PHONY : src/dir/UIManager.cpp.o
-
-src/dir/UIManager.i: src/dir/UIManager.cpp.i
-.PHONY : src/dir/UIManager.i
-
-# target to preprocess a source file
-src/dir/UIManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/UIManager.cpp.i
-.PHONY : src/dir/UIManager.cpp.i
-
-src/dir/UIManager.s: src/dir/UIManager.cpp.s
-.PHONY : src/dir/UIManager.s
-
-# target to generate assembly for a file
-src/dir/UIManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/UIManager.cpp.s
-.PHONY : src/dir/UIManager.cpp.s
-
-src/dir/WelcomePage.o: src/dir/WelcomePage.cpp.o
-.PHONY : src/dir/WelcomePage.o
-
-# target to build an object file
-src/dir/WelcomePage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.o
-.PHONY : src/dir/WelcomePage.cpp.o
-
-src/dir/WelcomePage.i: src/dir/WelcomePage.cpp.i
-.PHONY : src/dir/WelcomePage.i
-
-# target to preprocess a source file
-src/dir/WelcomePage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.i
-.PHONY : src/dir/WelcomePage.cpp.i
-
-src/dir/WelcomePage.s: src/dir/WelcomePage.cpp.s
-.PHONY : src/dir/WelcomePage.s
-
-# target to generate assembly for a file
-src/dir/WelcomePage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/forest.dir/build.make CMakeFiles/forest.dir/src/dir/WelcomePage.cpp.s
-.PHONY : src/dir/WelcomePage.cpp.s
 
 src/dir/Zombies.o: src/dir/Zombies.cpp.o
 .PHONY : src/dir/Zombies.o
@@ -573,9 +405,6 @@ help:
 	@echo "... src/dir/BulletDebugDrawer.o"
 	@echo "... src/dir/BulletDebugDrawer.i"
 	@echo "... src/dir/BulletDebugDrawer.s"
-	@echo "... src/dir/CameraManager.o"
-	@echo "... src/dir/CameraManager.i"
-	@echo "... src/dir/CameraManager.s"
 	@echo "... src/dir/Crosshair.o"
 	@echo "... src/dir/Crosshair.i"
 	@echo "... src/dir/Crosshair.s"
@@ -585,36 +414,18 @@ help:
 	@echo "... src/dir/HUD.o"
 	@echo "... src/dir/HUD.i"
 	@echo "... src/dir/HUD.s"
-	@echo "... src/dir/InputManager.o"
-	@echo "... src/dir/InputManager.i"
-	@echo "... src/dir/InputManager.s"
-	@echo "... src/dir/Level.o"
-	@echo "... src/dir/Level.i"
-	@echo "... src/dir/Level.s"
-	@echo "... src/dir/LevelManager.o"
-	@echo "... src/dir/LevelManager.i"
-	@echo "... src/dir/LevelManager.s"
 	@echo "... src/dir/Minimap.o"
 	@echo "... src/dir/Minimap.i"
 	@echo "... src/dir/Minimap.s"
 	@echo "... src/dir/Object.o"
 	@echo "... src/dir/Object.i"
 	@echo "... src/dir/Object.s"
-	@echo "... src/dir/PhysicsManager.o"
-	@echo "... src/dir/PhysicsManager.i"
-	@echo "... src/dir/PhysicsManager.s"
 	@echo "... src/dir/Plane.o"
 	@echo "... src/dir/Plane.i"
 	@echo "... src/dir/Plane.s"
 	@echo "... src/dir/Player.o"
 	@echo "... src/dir/Player.i"
 	@echo "... src/dir/Player.s"
-	@echo "... src/dir/UIManager.o"
-	@echo "... src/dir/UIManager.i"
-	@echo "... src/dir/UIManager.s"
-	@echo "... src/dir/WelcomePage.o"
-	@echo "... src/dir/WelcomePage.i"
-	@echo "... src/dir/WelcomePage.s"
 	@echo "... src/dir/Zombies.o"
 	@echo "... src/dir/Zombies.i"
 	@echo "... src/dir/Zombies.s"

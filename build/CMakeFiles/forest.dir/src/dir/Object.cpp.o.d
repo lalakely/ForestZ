@@ -1,7 +1,7 @@
 CMakeFiles/forest.dir/src/dir/Object.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/Object.cpp \
+ /home/herilala/ogre/ForestZ/src/dir/Object.cpp \
  /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Object.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Object.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \
@@ -500,7 +500,7 @@ CMakeFiles/forest.dir/src/dir/Object.cpp.o: \
  /usr/local/include/bullet/BulletDynamics/Vehicle/btWheelInfo.h \
  /usr/local/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/local/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/lib.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/lib.hpp \
  /usr/local/include/OGRE/Bites/OgreApplicationContext.h \
  /usr/local/include/OGRE/Bites/OgreBitesPrerequisites.h \
  /usr/local/include/OGRE/OgreBuildSettings.h \
@@ -550,5 +550,5 @@ CMakeFiles/forest.dir/src/dir/Object.cpp.o: \
  /usr/local/include/OGRE/Bites/OgreCameraMan.h \
  /usr/local/include/OGRE/OgreCamera.h \
  /usr/local/include/OGRE/OgreSceneNode.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
  /usr/include/c++/13/iostream

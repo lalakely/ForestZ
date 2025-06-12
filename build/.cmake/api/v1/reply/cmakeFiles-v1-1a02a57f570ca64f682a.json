@@ -146,8 +146,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/herilala/ogre/tests/ForestZ/build",
-		"source" : "/home/herilala/ogre/tests/ForestZ"
+		"build" : "/home/herilala/ogre/ForestZ/build",
+		"source" : "/home/herilala/ogre/ForestZ"
 	},
 	"version" : 
 	{

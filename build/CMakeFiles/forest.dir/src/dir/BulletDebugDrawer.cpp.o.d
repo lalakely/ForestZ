@@ -1,7 +1,7 @@
 CMakeFiles/forest.dir/src/dir/BulletDebugDrawer.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/BulletDebugDrawer.cpp \
+ /home/herilala/ogre/ForestZ/src/dir/BulletDebugDrawer.cpp \
  /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \

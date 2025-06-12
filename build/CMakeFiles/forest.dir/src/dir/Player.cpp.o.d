@@ -1,8 +1,8 @@
 CMakeFiles/forest.dir/src/dir/Player.cpp.o: \
- /home/herilala/ogre/tests/ForestZ/src/dir/Player.cpp \
+ /home/herilala/ogre/ForestZ/src/dir/Player.cpp \
  /usr/include/stdc-predef.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/Player.hpp \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/lib.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/Player.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/lib.hpp \
  /usr/local/include/OGRE/Ogre.h \
  /usr/local/include/OGRE/OgrePrerequisites.h \
  /usr/local/include/OGRE/OgrePlatform.h \
@@ -418,7 +418,7 @@ CMakeFiles/forest.dir/src/dir/Player.cpp.o: \
  /usr/local/include/OGRE/Bites/OgreCameraMan.h \
  /usr/local/include/OGRE/OgreCamera.h \
  /usr/local/include/OGRE/OgreSceneNode.h \
- /home/herilala/ogre/tests/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
+ /home/herilala/ogre/ForestZ/src/dir/../include/BulletDebugDrawer.hpp \
  /usr/local/include/bullet/btBulletDynamicsCommon.h \
  /usr/local/include/bullet/btBulletCollisionCommon.h \
  /usr/local/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \

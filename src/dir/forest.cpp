@@ -51,53 +51,11 @@ void Forest::setup()
     ApplicationContext::setup();
     addInputListener(this);
 
-    // get a pointer to the already created root
     root = getRoot();
     scnMgr = root->createSceneManager();
-
-    // Initialize resources
-    Ogre::ResourceGroupManager::getSingleton().initialiseAllResourceGroups();
-
-    // register our scene with the RTSS
-    RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
-    shadergen->addSceneManager(scnMgr);
-
-    // -- Overlay System --
+    
     overlaySystem = getOverlaySystem();
     scnMgr->addRenderQueueListener(overlaySystem);
-
-    // -- Create Camera --
-    SceneNode* camNode = scnMgr->getRootSceneNode()->createChildSceneNode();
-    Camera* cam = scnMgr->createCamera("MainCam");
-    
-    cam->setNearClipDistance(5);
-    cam->setAutoAspectRatio(true);
-    camNode->setPosition(0, 10, 50);
-    camNode->lookAt(Vector3(0, 0, 0), Node::TS_WORLD);
-    camNode->attachObject(cam);
-
-    // -- Set Viewport --
-    Viewport* vp = getRenderWindow()->addViewport(cam);
-    vp->setBackgroundColour(ColourValue(0.5f, 0.5f, 0.5f));
-
-    // Create ground plane
-    Plane plane(Vector3::UNIT_Y, 0);
-    MeshManager::getSingleton().createPlane(
-        "ground", ResourceGroupManager::DEFAULT_RESOURCE_GROUP_NAME,
-        plane, 1500, 1500, 20, 20,
-        true, 1, 5, 5,
-        Vector3::UNIT_Z
-    );
-    Entity* groundEntity = scnMgr->createEntity("ground");
-    SceneNode* groundNode = scnMgr->getRootSceneNode()->createChildSceneNode();
-    groundNode->attachObject(groundEntity);
-    groundEntity->setMaterialName("ForestGround");
-
-    // Create a test entity
-    Entity* testEntity = scnMgr->createEntity("Mesh.mesh");
-    SceneNode* testNode = scnMgr->getRootSceneNode()->createChildSceneNode();
-    testNode->attachObject(testEntity);
-    testNode->setPosition(0, 0, 0);
 
     // Initialize managers
     physicsManager = new PhysicsManager();
@@ -111,7 +69,7 @@ void Forest::setup()
     
     levelManager = new LevelManager(scnMgr, physicsManager->getDynamicsWorld());
     
-    inputManager = new InputManager(physicsManager->getDynamicsWorld());
+    inputManager = new InputManager();
     
     // Set up UI callbacks
     uiManager->setPlayCallback([this]() { this->startGame(); });
@@ -208,18 +166,16 @@ bool Forest::mouseReleased(const OgreBites::MouseButtonEvent& evt)
 
 void Forest::createLight()
 {
-    // Lumière ambiante
-    scnMgr->setAmbientLight(ColourValue(0.5, 0.5, 0.5));
-
-    // Lumière directionnelle
     light = scnMgr->createLight("MainLight");
-    light->setType(Light::LT_DIRECTIONAL);
-    light->setDiffuseColour(ColourValue(1.0, 1.0, 1.0));
-    light->setSpecularColour(ColourValue(0.4, 0.4, 0.4));
-    
     lightNode = scnMgr->getRootSceneNode()->createChildSceneNode();
+    
+    light->setDiffuseColour(Ogre::ColourValue(0.8f, 0.6f, 0.4f));
+    light->setSpecularColour(Ogre::ColourValue(0.5f, 0.4f, 0.3f));
+    light->setPowerScale(2.0f);
+
     lightNode->attachObject(light);
-    lightNode->setDirection(Vector3(0.5, -1, 0.5).normalisedCopy());
+    lightNode->setPosition(Ogre::Vector3(500, 600, 500));
+    lightNode->setDirection(Ogre::Vector3(-1, -1, -1).normalisedCopy());
 }
 
 bool Forest::frameRenderingQueued(const Ogre::FrameEvent& evt)
