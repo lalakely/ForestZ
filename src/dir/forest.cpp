@@ -52,10 +52,11 @@ void Forest::setup()
     addInputListener(this);
 
     root = getRoot();
+    overlaySystem = getOverlaySystem();
     scnMgr = root->createSceneManager();
     
-    overlaySystem = getOverlaySystem();
-    scnMgr->addRenderQueueListener(overlaySystem);
+    if (overlaySystem)
+        scnMgr->addRenderQueueListener(overlaySystem);
 
     // Initialize managers
     physicsManager = new PhysicsManager();
@@ -64,7 +65,7 @@ void Forest::setup()
     
     cameraManager = new CameraManager(scnMgr, getRenderWindow());
     
-    uiManager = new UIManager(scnMgr, getRenderWindow());
+    uiManager = new UIManager(scnMgr, getRenderWindow(), overlaySystem);
     uiManager->initialize();
     
     levelManager = new LevelManager(scnMgr, physicsManager->getDynamicsWorld());
@@ -73,6 +74,14 @@ void Forest::setup()
     
     // Set up UI callbacks
     uiManager->setPlayCallback([this]() { this->startGame(); });
+    uiManager->setMultiplayerCallback([this]() { 
+        // TODO: Implémenter le mode multijoueur
+        std::cout << "Mode multijoueur pas encore implémenté" << std::endl;
+    });
+    uiManager->setSettingsCallback([this]() {
+        // TODO: Implémenter la page des paramètres
+        std::cout << "Page des paramètres pas encore implémentée" << std::endl;
+    });
     uiManager->setQuitCallback([this]() { this->quitGame(); });
     
     if (uiManager->getTrayManager()) {
